@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "700992658011",
+    "project_id": "commento-f87eb",
+    "storage_bucket": "commento-f87eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700992658011:android:b0949e06e8128eedd47d7e",
+        "android_client_info": {
+          "package_name": "com.example.commento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700992658011-cv6p0shcbj3gksrm0ri995c8c787u76f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.commento",
+            "certificate_hash": "4b3c6e3e860c145c5efdf101dbc647042da8f05b"
+          }
+        },
+        {
+          "client_id": "700992658011-a9idup84vjuu02dgce15fmmm5vati66i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC03Hd9yZR4DiGifzYFZhe2hbM2-IyLZOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700992658011-a9idup84vjuu02dgce15fmmm5vati66i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
