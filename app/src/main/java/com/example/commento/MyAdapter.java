@@ -29,8 +29,8 @@ import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
 
-public class
-MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
+
+public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
 
     Context context;
     View v;

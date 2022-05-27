@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  <resources>
+=======
+<resources>
+>>>>>>> 6831d260cbc7e5519953b63899b5db50391e4a0c
     <string name="app_name">PerfectDay</string>
     <string name="title_activity_routine">Routine</string>
     <!-- Strings used for fragments for navigation -->

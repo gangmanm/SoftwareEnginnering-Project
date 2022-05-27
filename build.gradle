@@ -3,9 +3,19 @@ buildscript {
     repositories {
         // Check that you have the following line (if not, add it):
         google()  // Google's Maven repository
+<<<<<<< HEAD
     }
     dependencies {
         classpath 'com.google.gms:google-services:4.3.10'
+=======
+
+    }
+    dependencies {
+
+        classpath 'com.google.gms:google-services:4.3.10'
+
+
+>>>>>>> 6831d260cbc7e5519953b63899b5db50391e4a0c
     }
 }
 

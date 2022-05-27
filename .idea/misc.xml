@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Users/lkjh9/AndroidStudioProjects/commento/app/src/main/res/drawable/background_add_button.xml" value="0.266" />
         <entry key="..\:/Users/lkjh9/AndroidStudioProjects/commento/app/src/main/res/drawable/background_subtitle_indicator.xml" value="0.266" />
         <entry key="..\:/Users/lkjh9/AndroidStudioProjects/commento/app/src/main/res/drawable/dashboard_item_1_background.xml" value="0.266" />
@@ -13,6 +14,8 @@
         <entry key="..\:/Users/lkjh9/AndroidStudioProjects/commento/app/src/main/res/layout/activity_check_my_post.xml" value="0.25" />
         <entry key="..\:/Users/lkjh9/AndroidStudioProjects/commento/app/src/main/res/layout/activity_main.xml" value="0.2609375" />
         <entry key="..\:/Users/lkjh9/AndroidStudioProjects/commento/app/src/main/res/layout/activity_post.xml" value="0.2609375" />
+=======
+>>>>>>> 6831d260cbc7e5519953b63899b5db50391e4a0c
         <entry key="app/src/main/res/drawable/background_add_button.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_baseline_language_24.xml" value="0.1035" />
         <entry key="app/src/main/res/drawable/ic_search.xml" value="0.1035" />

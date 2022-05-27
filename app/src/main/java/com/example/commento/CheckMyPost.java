@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
+
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -32,6 +33,7 @@ public class CheckMyPost extends AppCompatActivity {
     MyAdapter myAdapter;
     FirebaseFirestore db;
     FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+
     String userUid = user.getUid();
     TextView textUserUid;
     ProgressBar mProgressBar;
@@ -41,7 +43,6 @@ public class CheckMyPost extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_check_my_post);
 
-
         recyclerView = findViewById(R.id.noteRecyclerView);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -50,6 +51,7 @@ public class CheckMyPost extends AppCompatActivity {
         mProgressBar = findViewById(R.id.progressBar);
         mProgressBar.setIndeterminate(false);
         textUserUid.setText(userUid);
+
 
         db = FirebaseFirestore.getInstance();
         newPostArrayList = new ArrayList<NewPost>();
