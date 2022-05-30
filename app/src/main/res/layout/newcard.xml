@@ -7,7 +7,7 @@
     app:cardElevation="8dp"
     app:cardCornerRadius="8dp"
     android:layout_margin="16dp"
-    app:cardBackgroundColor="#F1F3F4"
+    app:cardBackgroundColor="#EFEFEF"
     android:id="@+id/card_view">
 
     <LinearLayout
@@ -138,7 +138,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="8dp"
-            android:background="#BDCACC"
+            android:background="#E4D1B9"
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:paddingStart="10dp"

@@ -33,10 +33,10 @@ FirebaseFirestore db = FirebaseFirestore.getInstance();
         setContentView(R.layout.activity_post);
 
         RadioGroup radtag = findViewById(R.id.tagGroup);
-        RadioButton health = findViewById(R.id.tag_health);
-        RadioButton godlife = findViewById(R.id.tag_godlife);
-        RadioButton skincare = findViewById(R.id.tag_skincare);
-        RadioButton study = findViewById(R.id.tag_study);
+        RadioButton novel = findViewById(R.id.novel);
+        RadioButton essay = findViewById(R.id.essay);
+        RadioButton poem = findViewById(R.id.poem);
+        RadioButton written_hw = findViewById(R.id.written_hw);
         post_title = (EditText)findViewById(R.id.inputNoteTitle);
         post_subtitle = (EditText)findViewById(R.id.inputNoteSubtitle);
         post_content = (EditText)findViewById(R.id.content);
@@ -71,14 +71,14 @@ FirebaseFirestore db = FirebaseFirestore.getInstance();
 
                String mytag="";
                int radioId = radtag.getCheckedRadioButtonId();
-               if(health.getId()==radioId)
+               if(novel.getId()==radioId)
                    mytag ="소설";
-               if(study.getId()==radioId)
-                   mytag="에세이";
-               if(skincare.getId()==radioId)
-                    mytag="수필";
-               if(godlife.getId()==radioId)
+               if(essay.getId()==radioId)
+                   mytag="수필";
+               if(poem.getId()==radioId)
                     mytag="시";
+               if(written_hw.getId()==radioId)
+                    mytag="글쓰기 과제";
 
 
 
@@ -87,7 +87,7 @@ FirebaseFirestore db = FirebaseFirestore.getInstance();
                 db.collection("NewPost")
                         .add(newpost);
 
-                Toast.makeText(Post.this,"data inserted succefully",Toast.LENGTH_LONG).show();
+                Toast.makeText(Post.this,"글이 작성되었습니다.",Toast.LENGTH_LONG).show();
 
                 startActivityForResult(new Intent(getApplicationContext(), com.example.commento.PostList.class),
                         1);

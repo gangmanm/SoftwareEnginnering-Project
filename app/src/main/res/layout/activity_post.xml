@@ -125,7 +125,7 @@
                 android:background="@null"
                 android:fontFamily="@font/ubuntu_medium"
                 android:gravity="top"
-                android:hint="@string/type_in_here"
+                android:hint="당신의 글을 입력하세요..."
                 android:importantForAutofill="no"
                 android:includeFontPadding="false"
                 android:inputType="textMultiLine"
@@ -146,31 +146,32 @@
                 android:id="@+id/tagGroup"
                 app:layout_constraintTop_toBottomOf="@+id/content">
                 <RadioButton
-                    android:id ="@+id/tag_health"
+                    android:id ="@+id/novel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="소설">
 
                 </RadioButton>
                 <RadioButton
-                    android:id ="@+id/tag_skincare"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="에세이">
-
-                </RadioButton>
-                <RadioButton
-                    android:id ="@+id/tag_study"
+                    android:id ="@+id/essay"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="수필">
 
                 </RadioButton>
                 <RadioButton
-                    android:id ="@+id/tag_godlife"
+                    android:id ="@+id/poem"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="시">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:id ="@+id/written_hw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="글쓰기 과제">
 
                 </RadioButton>
 
